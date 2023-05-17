@@ -1,0 +1,17 @@
+{
+    "transportConfig" : {
+        "host": "smtp.gmail.com",
+        "port": 587,
+        "auth": {
+          "user": "email address pengirim",
+          "pass": "password"
+        },
+        "tls": {
+            "rejectUnauthorized": false
+        }    
+    },
+    "emailConfig" : {
+        "nama": "nama pengirim",
+        "judul": "judul subject"
+    }
+}
