@@ -52,7 +52,7 @@ async function main() {
         console.log("MENGIRIM " + results[j]["First Name"]);
         await tp.sendMail({
           from: '"' + config.emailConfig.nama + '" <' + config.transportConfig.auth.user + '>',
-          to: "mikatzukiathanas@gmail.com",
+          to: results[j]["Email Address"],
           subject: config.emailConfig.judul,
           text: emailText,
           attachments: [{
